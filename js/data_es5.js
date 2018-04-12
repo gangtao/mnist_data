@@ -1,7 +1,5 @@
 "use strict";
 
-exports.__esModule = true;
-
 function _asyncToGenerator(fn) {
   return function() {
     var gen = fn.apply(this, arguments);
@@ -57,7 +55,7 @@ var MNIST_LABELS_PATH =
  * manipulation manually.
  */
 
-var MnistData = (exports.MnistData = (function() {
+var MnistData = function() {
   function MnistData() {
     _classCallCheck(this, MnistData);
 
@@ -260,4 +258,4 @@ var MnistData = (exports.MnistData = (function() {
   };
 
   return MnistData;
-})());
+};
